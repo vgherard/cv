@@ -1,0 +1,101 @@
+---
+name: Valerio
+surname: Gherardi
+#position: "Professor"
+address: "Valencia, España"
+phone: +34 681 904 907
+profilepic: me-circle-cropped.png
+www: vgherard.github.io
+email: "vgherard@sissa.it"
+twitter: ValerioGherardi
+github: vgherard
+linkedin: vgherard
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Theoretical Physicist from Italy, looking for Data Science / Engineering job opportunities."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+```
+
+# Description
+
+My educational background provides me with a scientific and analytical mindset, which I love applying to problems and challenges coming from different areas. I have a wide experience with Data and Data Analysis, partly as a result of my physicist career, partly due to my passion for Machine Learning and Statistical Software Development.
+
+During my PhD in Trieste I have had the privilege to study in an international, multicultural and multidisciplinary environment.
+I love and get motivation from finding myself surrounded by people with heterogeneous backgrounds and life experiences. 
+
+I am a fast learner and motivate worker, looking for job opportunities in Data Science / Engineering, starting from the end of my doctoral studies in October 2021.
+
+# Education
+
+```{r}
+tribble(
+	~ Name, ~ Year, ~ Institution, ~ Where, ~Details,
+	"Laurea Triennale in Fisica", "2012-15", "Università La Sapienza", "Rome, Italy", "Final Grade: 110/110 cum laude",
+	"Laurea Magistrale in Fisica", "2015-2017", "Università La Sapienza", "Rome, Italy", "Final Grade: 110/110 cum laude",
+	"PhD in Theoretical Particle Physics", "2017-now", "International School for Advanced Studies (SISSA)", "Trieste, Italy", "Expected: September 2021"
+	) %>%
+	arrange(desc(Year)) %>%
+	detailed_entries(
+		what = Institution, with = Name, # Swapped for better format!
+		when = Year, where = Where, 
+		why = Details
+	)
+```
+
+# Technical skills
+
+**General.** Mathematical and statistical model building / Data Analysis / Scientific communication
+
+**Programming languages.** R / C++ / Python / SQL / Wolfram / Fortran
+
+**Data Science and Machine Learning.** Deep learning frameworks and APIs (TensorFlow, Keras, Trax) / Recurrent and Convolutional Neural Networks / Natural Language Processing / Classical Predictive Models
+
+**Algorithmic coding.**  
+Classical Data Structures (queues, stacks, heaps, trees, hash maps) / String algorithms / Graph and network algorithms / NP problems and SAT solvers 
+
+**Software Development.**
+Unit and functional testing / Version control (Git) / CI-CD / R Package Development
+
+**Content creation.** RStudio Shiny / (R) Markdown / LaTeX 
+
+# Certifications
+
+```{r}
+tribble(
+  ~ Name, ~ Year, ~ Institution, ~ Where, ~Details,
+  "Data Structures and Algorithms Specialization", "2021", "University of California San Diego", "Coursera.org", "Course description and certificate: https://coursera.org/share/4fe6c2e914585cb813c93488d20d8f52",
+  "Natural Language Processing Specialization", "2021", "deeplearning.ai", "Coursera.org", "Course description and certificate: https://coursera.org/share/903e270df65d75737d6c884743509e84",
+  "Deep Learning Specialization", "2020", "deeplearning.ai", "Coursera.org", "Course description and certificate: https://coursera.org/share/1a79776ec145f7d140c93b95281f5250",
+  "Data Science Specialization", "2020", "Johns Hopkins University", "Coursera.org", "Course description and certificate: https://coursera.org/share/3d64e7b0e1038f16fdb2103a71878e53"
+  
+) %>% 
+  detailed_entries(
+		what = Institution, with = Name, # Swapped for better format!
+		when = Year, where = Where, 
+		why = Details
+	)
+```
+
+# Personal Projects
+
+### `r2r`
+
+
+
+# Awards
+
+# Publications
+
+<!-- # Publications -->
+
+<!-- ```{r} -->
+<!-- bibliography_entries("biblio.bib") %>% -->
+<!--   arrange(issued) -->
+<!-- ``` -->
+
