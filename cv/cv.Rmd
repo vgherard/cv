@@ -24,7 +24,7 @@ library(dplyr)
 
 # Description
 
-My educational background provides me with a scientific and analytical mindset, which I love applying to problems and challenges coming from different areas. I have a wide experience with Data and Data Analysis, partly as a result of my physicist career, partly due to my passion for Machine Learning and Statistical Software Development.
+My educational background provides me with a strong scientific and analytical mindset, which I love applying to problems and challenges coming from different areas. I have a wide experience with Data and Data Analysis, partly as a result of my physicist career, partly due to my passion for Machine Learning and Statistical Software Development.
 
 During my PhD in Trieste I have had the privilege to study in an international, multicultural and multidisciplinary environment.
 I love and get motivation from finding myself surrounded by people with heterogeneous backgrounds and life experiences. 
@@ -60,9 +60,31 @@ tribble(
 Classical Data Structures (queues, stacks, heaps, trees, hash maps) / String algorithms / Graph and network algorithms / NP problems and SAT solvers 
 
 **Software Development.**
-Unit and functional testing / Version control (Git) / CI-CD / R Package Development
+Unit testing / Version control (Git) / CI-CD / R Package Development
 
 **Content creation.** RStudio Shiny / (R) Markdown / LaTeX 
+
+# Language Skills
+
+**Italian** Mother tongue | **English** Professional | **Spanish** Advanced
+
+# Personal Projects
+
+### `r2r` ([vgherard.github.io/r2r/](https://vgherard.github.io/r2r/)) {-}
+Implementation of hash tables in the R programming language.
+
+### `kgrams` ([vgherard.github.io/kgrams/](https://vgherard.github.io/kgrams/)) {-}
+Tools for training and evaluating $k$-gram language models, R package with C++ backend. See also the associated blog post at [datascienceplus.com/an-introduction-to-k-gram-language-models-in-r/](https://datascienceplus.com/an-introduction-to-k-gram-language-models-in-r/). This software is currently awaiting for peer-review at [rOpenSci.org](https://ropensci.org/).
+
+### `runiv` ([github.com/vgherard/runiv](https://github.com/vgherard/runiv)) {-}
+An R client for R-universe APIs.
+
+### `hepscrape` ([github.com/vgherard/hepscrape](https://github.com/vgherard/hepscrape))  {-}
+An arXiv scraper built using R, Python and GitHub Actions. 
+
+### `fcci` ([vgherard.github.io/fcci/](https://vgherard.github.io/fcci/)) {-}
+
+Support for Feldman-Cousins Confidence Intervals; R/C++ implementation.
 
 # Certifications
 
@@ -82,20 +104,14 @@ tribble(
 	)
 ```
 
-# Personal Projects
+# Publications
 
-### `r2r`
-
-
+```{r}
+bibliography_entries("biblio.bib") %>%
+  arrange(desc(issued))
+```
 
 # Awards
 
-# Publications
-
-<!-- # Publications -->
-
-<!-- ```{r} -->
-<!-- bibliography_entries("biblio.bib") %>% -->
-<!--   arrange(issued) -->
-<!-- ``` -->
-
+### *"Admeto Pettinari e Paolo Andreini" Scholarship* (01/10/2019){-}
+Awarded by *Cassa di Sovvenzione e Risparmio per i dipendenti della Banca d'Italia* 
