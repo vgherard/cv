@@ -48,7 +48,7 @@ tribble(
 	)
 ```
 
-# Technical skills
+# Technical Skills
 
 **General.** Mathematical and statistical model building / Data Analysis / Scientific communication
 
@@ -56,8 +56,7 @@ tribble(
 
 **Data Science and Machine Learning.** Deep learning frameworks and APIs (TensorFlow, Keras, Trax) / Recurrent and Convolutional Neural Networks / Natural Language Processing / Classical Predictive Models
 
-**Algorithmic coding.**  
-Classical Data Structures (queues, stacks, heaps, trees, hash maps) / String algorithms / Graph and network algorithms / NP problems and SAT solvers 
+**Algorithmic coding.** Classical Data Structures (queues, stacks, heaps, trees, hash maps) / String algorithms / Graph and network algorithms / NP problems and SAT solvers 
 
 **Software Development.**
 Unit testing / Version control (Git) / CI-CD / R Package Development
