@@ -1,7 +1,7 @@
 ---
 name: Valerio
 surname: Gherardi
-#position: "Professor"
+position: "Data Scientist"
 address: "Valencia, España"
 phone: +34 681 904 907
 profilepic: me-circle-cropped.png
@@ -10,13 +10,14 @@ email: "vgherard@sissa.it"
 twitter: ValerioGherardi
 github: vgherard
 linkedin: vgherard
-date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Theoretical Physicist from Italy, looking for Data Science / Engineering job opportunities."
+date: "Updated: `r format(Sys.Date())`"
+aboutme: "Theoretical Physicist  | Data Scientist"
 output: vitae::awesomecv
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+Sys.setenv(LANG = "en_GB.UTF-8")
 library(vitae)
 library(tibble)
 library(dplyr)
@@ -24,12 +25,31 @@ library(dplyr)
 
 # Description
 
-My educational background provides me with a strong scientific and analytical mindset, which I love applying to problems and challenges coming from different areas. I have a wide experience with Data and Data Analysis, partly as a result of my physicist career, partly due to my passion for Machine Learning and Statistical Software Development.
+My background in Physics provides me with a strong scientific and analytic
+mindset, that I enjoy applying to problems and challenges coming from different 
+areas. I am currently employed as Data Scientist at Voicemod, a software development company whose main focus are voice changing technologies, which represents for 
+me a tremendous opportunity for widening my experience with data in a cool and  fast-changing scenario.
 
 During my PhD in Trieste I have had the privilege to study in an international, multicultural and multidisciplinary environment.
-I love and get motivation from finding myself surrounded by people with heterogeneous backgrounds and life experiences. 
+I love and get motivation from finding myself surrounded by people with heterogeneous backgrounds and life experiences.
 
-I am a fast learner and motivate worker, looking for job opportunities in Data Science / Engineering, starting from the end of my doctoral studies in October 2021.
+What motivates me more in my work is being a concrete help to people 
+and teams I collaborate with, and, on the personal side, getting the chance to 
+learn something new every day.
+
+# Work Experience
+```{r}
+tribble(
+	~ Name, ~ Year, ~ Company, ~ Where,
+	"Data Scientist", "2021-Current", "Voicemod", "Valencia, Spain"
+	) %>%
+	arrange(desc(Year)) %>%
+	detailed_entries(
+		what = Company, with = Name, # Swapped for better format!
+		when = Year, where = Where
+	)
+```
+
 
 # Education
 
@@ -38,7 +58,7 @@ tribble(
 	~ Name, ~ Year, ~ Institution, ~ Where, ~Details,
 	"Laurea Triennale in Fisica", "2012-15", "Università La Sapienza", "Rome, Italy", "Final Grade: 110/110 cum laude",
 	"Laurea Magistrale in Fisica", "2015-2017", "Università La Sapienza", "Rome, Italy", "Final Grade: 110/110 cum laude",
-	"PhD in Theoretical Particle Physics", "2017-now", "International School for Advanced Studies (SISSA)", "Trieste, Italy", "Expected: September 2021"
+	"PhD in Theoretical Particle Physics", "2017-2021", "International School for Advanced Studies (SISSA)", "Trieste, Italy", "Awarded with honourable mention."
 	) %>%
 	arrange(desc(Year)) %>%
 	detailed_entries(
@@ -48,20 +68,21 @@ tribble(
 	)
 ```
 
-# Technical Skills
+# Technical Skills and Tool Stack
 
-**General.** Mathematical and statistical model building / Data Analysis / Scientific communication
+**Programming languages.** R / Python / C++ / Wolfram / FORTRAN
 
-**Programming languages.** R / C++ / Python / SQL / Wolfram / Fortran
+**SQL - DBMS** Amazon Redshift / Google BigQuery
 
-**Data Science and Machine Learning.** Deep learning frameworks and APIs (TensorFlow, Keras, Trax) / Recurrent and Convolutional Neural Networks / Natural Language Processing / Classical Predictive Models
+**BI and visualization tools.** Tableau / Looker / Amplitude / RStudio Shiny / Plotly
 
-**Algorithmic coding.** Classical Data Structures (queues, stacks, heaps, trees, hash maps) / String algorithms / Graph and network algorithms / NP problems and SAT solvers 
+**ETL.** DBT / Airflow
 
-**Software Development.**
-Unit testing / Version control (Git) / CI-CD / R Package Development
+**Cloud Computing.** Amazon Web Services / Google Cloud Platform
 
-**Content creation.** RStudio Shiny / (R) Markdown / LaTeX 
+**Machine Learning.** Keras / Tensorflow
+
+**Scientific skills.** Mathematical and Statistical modeling / Machine and Deep Learning / Natural Language Processing / Algorithmic coding / Scientific Communication
 
 # Language Skills
 
