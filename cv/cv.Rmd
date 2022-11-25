@@ -6,7 +6,7 @@ address: "Valencia, España"
 phone: +34 681 904 907
 profilepic: me-circle-cropped.png
 www: vgherard.github.io
-email: "vgherard@sissa.it"
+email: "vgherard840@gmail.com"
 twitter: ValerioGherardi
 github: vgherard
 linkedin: vgherard
@@ -25,17 +25,26 @@ library(dplyr)
 
 # Description
 
-My background in Physics provides me with a strong scientific and analytic
-mindset, that I enjoy applying to problems and challenges coming from different 
-areas. I am currently employed as Data Scientist at Voicemod, a software development company whose main focus are voice changing technologies, which represents for 
-me a tremendous opportunity for widening my experience with data in a cool and  fast-changing scenario.
+I am a tireless student. My scientific background provides me with a strong 
+analytic mindset, that I enjoy applying to problems and challenges coming 
+from diverse areas. This is partly why, after completing my PhD in Particle 
+Physics, I decided to steer myself in a new direction, 
+and to pursue a career in Data Science - considering that this represented a 
+great opportunity to keep doing what I like and do best, in a dynamic 
+environment that fueled my curiosity.
 
-During my PhD in Trieste I have had the privilege to study in an international, multicultural and multidisciplinary environment.
-I love and get motivation from finding myself surrounded by people with heterogeneous backgrounds and life experiences.
+I am currently employed as Data Scientist in the Product Analytics division of 
+[Voicemod](https://www.voicemod.net/), a software development company whose main 
+focus are voice changing technologies. Here, my main tasks involve experimental 
+design and coordination of A/B tests, analysis of complex user behavioral data, 
+inference and predictive modeling around product decisions. In addition to 
+that, a conspicuous part of my job involves providing support for 
+data-engineering and reporting needs, especially on the data-modeling front.
 
-What motivates me more in my work is being a concrete help to people 
-and teams I collaborate with, and, on the personal side, getting the chance to 
-learn something new every day.
+What motivates me most in my day-to-day work is to bring data-driven business 
+advice to my colleagues, and to enable teams to *measure* the impact of 
+their efforts. On the personal side, I love getting the chance to learn some new 
+trick every day.
 
 # Work Experience
 ```{r}
@@ -70,41 +79,41 @@ tribble(
 
 # Technical Skills and Tool Stack
 
-**Programming languages.** R / Python / C++ / Wolfram / FORTRAN
+**Scientific skills.** Experimental Design / Statistical Modeling / Algorithmic Coding / Scientific Communication
 
-**SQL - DBMS** Amazon Redshift / Google BigQuery
+**Programming languages.** R / Python / Bash / C++ / Wolfram / FORTRAN
 
-**BI and visualization tools.** Tableau / Looker / Amplitude / RStudio Shiny / Plotly
+**Database/Warehouse.** Snowflake / Redshift / BigQuery / SQLite / PostgreSQL
 
-**ETL.** DBT / Airflow
+**Reporting and Visualization.** Tableau / Looker / Amplitude / RMarkdown / Shiny / Plotly / Streamlit
 
-**Cloud Computing.** Amazon Web Services / Google Cloud Platform
+**Data Modeling and Engineering.** DBT / Airflow
 
-**Machine Learning.** Keras / Tensorflow
+**Data Platforms.** mParticle / split.io / Iterable
 
-**Scientific skills.** Mathematical and Statistical modeling / Machine and Deep Learning / Natural Language Processing / Algorithmic coding / Scientific Communication
+**Cloud Computing.** Google Cloud Platform / AWS
+
+**Deep Learning.** Keras / Tensorflow
+
+**Misc.** Git / Docker
 
 # Language Skills
 
-**Italian** Mother tongue | **English** Professional | **Spanish** Advanced
+**Italian** Mother tongue | **English** Professional | **Spanish** Professional
 
 # Personal Projects
 
-### `r2r` ([vgherard.github.io/r2r/](https://vgherard.github.io/r2r/)) {-}
-Implementation of hash tables in the R programming language.
+Below are some fun-projects I have worked on - mostly focused on 
+Statistics/Machine-Learning and developed in the R programming language.
 
 ### `kgrams` ([vgherard.github.io/kgrams/](https://vgherard.github.io/kgrams/)) {-}
-Tools for training and evaluating $k$-gram language models, R package with C++ backend. See also the associated blog post at [datascienceplus.com/an-introduction-to-k-gram-language-models-in-r/](https://datascienceplus.com/an-introduction-to-k-gram-language-models-in-r/). This software is currently awaiting for peer-review at [rOpenSci.org](https://ropensci.org/).
-
-### `runiv` ([github.com/vgherard/runiv](https://github.com/vgherard/runiv)) {-}
-An R client for R-universe APIs.
-
-### `hepscrape` ([github.com/vgherard/hepscrape](https://github.com/vgherard/hepscrape))  {-}
-An arXiv scraper built using R, Python and GitHub Actions. 
+Tools for training and evaluating $k$-gram language models, R package with C++ backend.
 
 ### `fcci` ([vgherard.github.io/fcci/](https://vgherard.github.io/fcci/)) {-}
-
 Support for Feldman-Cousins Confidence Intervals; R/C++ implementation.
+
+### `r2r` ([vgherard.github.io/r2r/](https://vgherard.github.io/r2r/)) {-}
+Implementation of hash tables in the R programming language.
 
 # Certifications
 
@@ -124,7 +133,7 @@ tribble(
 	)
 ```
 
-# Publications
+# Scientific Publications
 
 ```{r}
 bibliography_entries("biblio.bib") %>%
