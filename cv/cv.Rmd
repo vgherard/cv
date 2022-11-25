@@ -41,6 +41,10 @@ inference and predictive modeling around product decisions. In addition to
 that, a conspicuous part of my job involves providing support for 
 data-engineering and reporting needs, especially on the data-modeling front.
 
+<!---
+TODO: What am I looking for?
+-->
+
 What motivates me most in my day-to-day work is to bring data-driven business 
 advice to my colleagues, and to enable teams to *measure* the impact of 
 their efforts. On the personal side, I love getting the chance to learn some new 
