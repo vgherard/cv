@@ -11,7 +11,7 @@ twitter: ValerioGherardi
 github: vgherard
 linkedin: vgherard
 date: "Updated: `r format(Sys.Date())`"
-aboutme: "Theoretical Physicist  | Data Scientist"
+# aboutme: "Theoretical Physicist  | Data Scientist"
 output: vitae::awesomecv
 ---
 
@@ -33,14 +33,6 @@ and to pursue a career in Data Science - considering that this represented a
 great opportunity to keep doing what I like and do best, in a dynamic 
 environment that fueled my curiosity.
 
-I am currently employed as Data Scientist in the Product Analytics division of 
-[Voicemod](https://www.voicemod.net/), a software development company whose main 
-focus are voice changing technologies. Here, my main tasks involve experimental 
-design and coordination of A/B tests, analysis of complex user behavioral data, 
-inference and predictive modeling around product decisions. In addition to 
-that, a conspicuous part of my job involves providing support for 
-data-engineering and reporting needs, especially on the data-modeling front.
-
 What motivates me most in my day-to-day work is to bring data-driven business 
 advice to my colleagues, and to enable teams to *measure* the impact of 
 their efforts. On the personal side, I love getting the chance to learn some new 
@@ -50,12 +42,13 @@ trick every day.
 ```{r}
 tribble(
 	~ Name, ~ Year, ~ Company, ~ Where,
-	"Data Scientist", "2021-Current", "Voicemod", "Valencia, Spain"
+	"Data Scientist - Product Analytics", "2021-Current", "Voicemod", "Valencia, Spain"
 	) %>%
 	arrange(desc(Year)) %>%
 	detailed_entries(
 		what = Company, with = Name, # Swapped for better format!
-		when = Year, where = Where
+		when = Year, where = Where,
+		why = "My main tasks involve experimental design and coordination of A/B tests, analysis of complex user behavioral data, inference and predictive modeling around product decisions. Working closely with the Content and Monetization teams, these analyses usually revolve around the optimisation of activation, engagement and financial KPIs. In addition to that, I often provide support for data-engineering and reporting needs, especially on the data-modeling front."
 	)
 ```
 
@@ -91,7 +84,7 @@ tribble(
 
 **Data Platforms.** mParticle / split.io / Iterable
 
-**Cloud Computing.** Google Cloud Platform / AWS
+**Cloud Computing.** Google Cloud Platform / AWS / DigitalOcean
 
 **Deep Learning.** Keras / Tensorflow
 
